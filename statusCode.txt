@@ -1,0 +1,20 @@
+
+status codes : 100 - 599
+
+200: Success: Requests are received and successfully processed.
+200: okay and request is succeded
+201: to indicate a new resource is created
+202: to indicate that the new request is successfully accpeted, but no action has happend yet on the server.
+
+300: Redirection: used to provide redirectional information to the client.
+
+400: Client Error: Some thing was wrong with the request sent from the client.
+400: bad request. THe request is not formmatted correctly or contains information that the web server doesn't understand.
+401: unauthorized to tell the client that they haven't provided the necessay authentification information and therefore denied access to resource.
+403: indicate forbidden. which is when client is authenticated but donot have enough permissions to access the resource.
+404: resource is not found.
+
+500: Server Error: Some thing unexpected thing happened while processing the request on the serve.
+500: internal server error
+501: not implemented, when you try to use the wrong request method for a a given resource.
+502: bad gateway, which usually indicates that the server tries to contact another web service or server and received invalid response. 
